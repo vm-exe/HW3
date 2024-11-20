@@ -13,15 +13,32 @@
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "@commitlint/types": "^19.0.3",
+<<<<<<< HEAD
 
     "@prisma/client": "^5.22.0",
     "@types/express": "^5.0.0",
     "compare-func": "^2.0.0"
 
+=======
+    "@prisma/client": "^5.22.0",
+    "@types/express": "^5.0.0",
+    "eslint": "8.57.0",
+    "husky": "9.1.5",
+    "nodemon": "^3.1.7",
+    "prettier": "3.3.2",
+    "prisma": "^5.22.0",
+    "ts-node": "^10.9.2",
+    "turbo": "2.0.14",
+    "typescript": "^5.6.3"
+>>>>>>> c2ed733 (First changes, CRUD has been added)
   },
   "volta": {
     "node": "20.17.0",
     "pnpm ": "9.8.0"
   },
-  "packageManager": "pnpm@9.0.0"
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  }
 }
